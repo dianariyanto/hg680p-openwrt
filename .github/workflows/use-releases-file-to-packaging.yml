@@ -74,7 +74,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: openwrt_19.07.5_hg680p_${{ env.FILE_DATE }}
+        tag_name: openwrt_SNAPSHOTS_hg680p_${{ env.FILE_DATE }}
         files: ${{ env.FILEPATH }}/*
         body: |
           This is OpenWrt firmware for S9xxx-Boxs
